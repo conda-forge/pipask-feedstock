@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pipask
-  version: 0.9.6
+  version: "0.9.7"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pipask-${{ version }}.tar.gz
-  sha256: c25d50efba11c061fff0ca4f7c207d93ccb29e2b7bfb3bfb35c67ac3882d080d
+  sha256: fa85b21348be45132c26abc2b9141159a5bd3ab3429fa4e5cbea90e6a2661306
 
 build:
   number: 0
